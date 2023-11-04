@@ -1,0 +1,80 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+  display: grid;
+  place-items: center;
+}
+
+.card-container {
+  width: 322px;
+  background-color: hsl(216, 50%, 16%);
+  margin: 5rem;
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.image {
+  max-width: 100%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.nft-name {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.nft-description {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+
+.price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.time-left {
+  color: hsl(215, 51%, 70%);
+}
+
+.profile-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 2rem;
+  border-top: 1px solid hsl(215, 32%, 27%);
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+.price {
+  color: hsl(178, 100%, 50%);
+}
+
+.profile-picture {
+  max-height: 100%;
+  margin: 0;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+
+.profile-txt {
+  padding-left: 1rem;
+  color: hsl(215, 51%, 70%);
+}
+
+.profile-name {
+  color: hsl(0, 0%, 100%);
+}
+
+.nft-name:hover,
+.profile-name:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
